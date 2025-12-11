@@ -1,0 +1,53 @@
+body {
+    background-image: url("background1.jpg");
+    background-color: black;
+    background-size: cover;
+}
+#welcome {
+    display: flex;
+    font-family: 'Rubik Glitch';
+    color: azure;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: -100px;
+    font-size: 25px;
+}
+#header1 {
+    display: flex;
+    font-family: 'Rubik Glitch';
+    justify-content: center;
+}
+#logo {
+    width: 800px;
+    height: 500px;
+    animation: flicky 4s steps(1) infinite; 
+}
+
+@keyframes flicky {
+    0%, 100% { opacity: 1; }
+    41%, 43%, 45%, 50%, 55%, 60%, 62%, 80% { opacity: 0.1; }
+    42%, 44%, 51%, 56%, 61%, 63%, 81% { opacity: 1; }
+}
+h2 {
+    display: flex;
+    font-family: 'Rubik Glitch';
+    color: azure;
+    justify-content: center;
+    margin-top: -80px;
+}
+a:link, a:visited {
+    color: azure;
+    font-size: 28px;
+}
+#navbar {
+    display: flex;
+    height: 95px;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-image: url('check.webp');
+    font-family: 'Rubik Glitch';
+}
+#background {
+    display: flex;
+}
