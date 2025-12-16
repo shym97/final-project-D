@@ -2,6 +2,8 @@ body {
     background-image: url("background1.jpg");
     background-color: black;
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 #welcome {
     display: flex;
@@ -10,7 +12,7 @@ body {
     justify-content: center;
     margin-top: 40px;
     margin-bottom: -100px;
-    font-size: 25px;
+    font-size: 18px;
 }
 #header1 {
     display: flex;
@@ -36,18 +38,58 @@ h2 {
     margin-top: -80px;
 }
 a:link, a:visited {
-    color: azure;
-    font-size: 28px;
+    display: flex;
+    background-image: linear-gradient(to right, rgb(255, 170, 0), rgb(255, 77, 0));
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 28px;
 }
 #navbar {
     display: flex;
     height: 95px;
+    width: 1400px;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
     background-image: url('check.webp');
     font-family: 'Rubik Glitch';
 }
+#nav {
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
 #background {
     display: flex;
+    margin-top: -20px;
+    width: 1440px;
+    z-index: -999;
+}
+#order {
+    display: flex;
+    z-index: 999;
+    padding: 0;
+    font-family: 'Rubik Glitch';
+    color: azure;
+    margin-top: -1050px;
+    text-align: center;
+    padding-bottom: 37px;
+}
+h3 {
+    display: flex;
+    z-index: 999;
+    padding: 0;
+    font-family: 'Rubik Glitch';
+    color: azure;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 25px;
+}
+#img1 {
+    display: flex;
+    width: 1100px;
+    height: 650px;
+    margin-left: 200px;
 }

@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Eater&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poller+One&family=Press+Start+2P&family=Rubik+Glitch&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
   </head>
 
     <body>
@@ -19,7 +22,7 @@
 
         <h2>a horror attraction based on Freddy Fazbears Pizzaria!</h2>
 
-      <section>
+      <section id="nav">
         <ul id="navbar">
           <li id="link"><a href="https://forms.gle/6uTReXyzL3rdBm3u7">Home</a></li>
           <li id="link"><a href="index3.html">Contact</a></li>
@@ -28,10 +31,60 @@
         </ul>
       </section>
 
+      <div>
+        <img id="background" src="pizza.png">
+      </div>
+
       <section>
         <div>
-          <img id="background" src="fnaf.jpg">
+          <h1 id="order">
+            Welcome to the Fazbears Frights Webpage! Here, you can order tickets, rent animatronics and book birthday parties!
+          </h1>
         </div>
       </section>
+
+      <div>
+        <h3>
+          Get ready for the scare of your life!! with awesome pizza, real animatronics and crazy backstories, youll be coming back for more every opening!
+        </h3>
+      </div>
+
+      <!--######################################################-->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img id="img1"src="2.png" alt="Los Angeles">
+    </div>
+
+    <div class="item">
+      <img id="img2"src="mans1.jpg" alt="Chicago">
+    </div>
+
+    <div class="item">
+      <img id="img3"src="mans1.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
     </body>
 </html>
