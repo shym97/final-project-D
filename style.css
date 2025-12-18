@@ -46,14 +46,18 @@ a:link, a:visited {
     text-decoration: none;
     margin-top: 28px;
 }
+a:hover {
+    transition: 1s;
+    color: rgb(201, 0, 0);
+}
 #navbar {
     display: flex;
-    height: 95px;
-    width: 1400px;
+    height: 89px;
+    width: 1440px;
     flex-direction: row;
     justify-content: space-around;
     list-style-type: none;
-    background-image: url('check.webp');
+    background-image: url('checker.jpg');
     font-family: 'Rubik Glitch';
 }
 #nav {
@@ -91,5 +95,19 @@ h3 {
     display: flex;
     width: 1100px;
     height: 650px;
-    margin-left: 200px;
+    margin-left: 175px;
+    border: solid rgb(193, 0, 0) 6px;
+}
+#img2 {
+    display: flex;
+    width: 800px;
+    margin-left: 320px;
+    border: solid black 6px;
+}
+#img3 {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    margin-left: 220px;
+    border: solid rgb(199, 122, 0) 6px;
 }

@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    background-image: url('open.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    animation-name: sping;
+    animation-duration: 10s;
+}
+@keyframes sping {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}

@@ -1,0 +1,260 @@
+body {
+    background-image: url("3back.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a:link, a:visited {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(237, 237, 237), rgb(165, 165, 165));
+    background-clip: text;
+    color: transparent;
+    font-size: 30px;
+    text-decoration: none;
+    margin-top: 28px;
+}
+a:hover {
+    transition: 1s;
+    color: rgb(201, 0, 0);
+}
+#navbar {
+    display: flex;
+    height: 89px;
+    width: 1440px;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-image: url('static.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Rubik Glitch';
+}
+#nav {
+    top: 0;
+    position: sticky;
+    z-index: 2000;
+}
+h1 {
+    text-align: center;
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 248, 240);
+}
+#small {
+    text-align: center;
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 248, 240);
+    font-size: 25px;
+}
+
+
+
+#freddy {
+  box-shadow: 0 4px 8px 0 rgb(255, 248, 240);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 12px;
+}
+
+#freddy:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 248, 240);
+  transform: scale(1.1); 
+}
+
+.container {
+  padding: 2px 16px;
+}
+#fred {
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 247, 237);
+    font-size: 20px;
+}
+.card1 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 250px;
+}
+
+
+
+#chica {
+  box-shadow: 0 4px 8px 0 rgb(255, 248, 240);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 12px;
+  background-color: black;
+}
+
+#chica:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 248, 240);
+  transform: scale(1.1); 
+}
+
+.container {
+  padding: 2px 16px;
+}
+#chic {
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 247, 237);
+    font-size: 20px;
+}
+.card2 {
+    display: flex;
+    margin-top: -400px;
+    margin-left: 550px;
+    width: 250px;
+}
+
+
+
+#foxy {
+  box-shadow: 0 4px 8px 0 rgb(255, 248, 240);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 12px;
+  background-color: black;
+}
+
+#foxy:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 248, 240);
+  transform: scale(1.1); 
+}
+
+.container {
+  padding: 2px 16px;
+}
+#fox {
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 247, 237);
+    font-size: 20px;
+}
+.card3 {
+    display: flex;
+    margin-top: -470px;
+    margin-left: 950px;
+    width: 250px;
+}
+
+
+
+#nerd {
+  box-shadow: 0 4px 8px 0 rgb(255, 248, 240);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 12px;
+  background-color: black;
+}
+
+#nerd:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 248, 240);
+  transform: scale(1.1); 
+}
+
+.container {
+  padding: 2px 16px;
+}
+#bb {
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 247, 237);
+    font-size: 20px;
+}
+.card4 {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 150px;
+    width: 250px;
+}
+
+
+
+#puppet {
+  box-shadow: 0 4px 8px 0 rgb(255, 248, 240);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 12px;
+  background-color: black;
+}
+
+#puppet:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 248, 240);
+  transform: scale(1.1); 
+}
+
+.container {
+  padding: 2px 16px;
+}
+#pup {
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 247, 237);
+    font-size: 20px;
+}
+.card5 {
+    display: flex;
+    margin-top: -350px;
+    margin-left: 550px;
+    width: 250px;
+}
+
+
+
+#mangle {
+  box-shadow: 0 4px 8px 0 rgb(255, 248, 240);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 12px;
+  background-color: black;
+}
+
+#mangle:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 248, 240);
+  transform: scale(1.1); 
+}
+
+.container {
+  padding: 2px 16px;
+}
+#man {
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 247, 237);
+    font-size: 20px;
+}
+.card6 {
+    display: flex;
+    margin-top: -420px;
+    margin-left: 950px;
+    width: 250px;
+}
+
+
+
+#trap {
+  box-shadow: 0 8px 16px 0 rgb(179, 0, 0);
+  transition: 0.3s;
+  width: 500%;
+  border-radius: 12px;
+  background-color: black;
+}
+
+#trap:hover {
+  box-shadow: 0 8px 16px 0 rgb(255, 8, 4);
+  transform: scale(1.1); 
+}
+
+.container {
+  padding: 2px 16px;
+}
+#spin {
+    display: flex;
+    font-family: 'Rubik Glitch';
+    color: rgb(255, 247, 237);
+    font-size: 20px;
+    margin-left: 800px;
+    margin-top: -460px;
+}
+.card7 {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 575px;
+    width: 250px;
+}
